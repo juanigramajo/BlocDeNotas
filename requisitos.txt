@@ -1,0 +1,30 @@
+Se solicita hacer un sistema de notas personales. El mismo debe implementarse con Bootstrap. El proyecto es individual.
+Cada nota tiene:
+id (alfanumérico generado automáticamente)
+Usar la siguiente función: https://gist.github.com/gordonbrander/2230317✅
+título (máximo 60 caracteres)✅
+contenido (máximo 500 caracteres)✅
+modificación (fecha y hora de la última modificación)
+
+Funcionalidades:
+Agregar Nota✅
+Listar Notas✅
+Modificar Nota✅
+Borrar Nota✅
+Filtrar Notas, por título y contenido
+
+Las notas deben almacenarse en LocalStorage. Deben hacerse todas las validaciones correspondientes a los datos ingresados,
+tanto en el código HTML como en Javascript.
+
+Para el proyecto debe usarse GIT. Crear un repositorio público en GitHub, luego del primer commit debe trabajarse sobre la rama develop,
+a medida que se vayan agregando funcionalidades se deben crear y publicar los commits correspondientes.
+Una vez finalizado el proyecto se debe mergear la rama master con la develop.
+
+
+Requerimientos opcionales no obligatorios:
+Agregar a Nota una categoría (máximo 30 caracteres).
+En el alta de Nota, la categoría debe seleccionarse de una lista.
+Se debe poder agregar y eliminar categorías.
+Al eliminar una categoría debe verificarse que no exista una nota con dicha categoría asociada, es decir que sólo se
+puede borrar una categoría si no existen notas con dicha categoría.
+Se debe poder listar todas las notas de una categoría seleccionada.
